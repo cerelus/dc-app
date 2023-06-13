@@ -4,7 +4,7 @@ import "./css/layout.css";
 import { Link, Outlet } from "react-router-dom";
 
 /* 폰트어썸 임포트 */
-import { faCamera, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 /******************************************************* 
     [ 리액트 라우터와 연결하여 사용되는 라우터 컴포넌트 ]
@@ -28,7 +28,7 @@ const Layout = () => {
         },
         {
             txt: "COMICS",
-            link: "/co",
+            link: "/co1",
             sub: [
                 {
                     txt: "LATEST COMICS",
@@ -50,15 +50,15 @@ const Layout = () => {
             sub: [
                 {
                     txt: "DC MOVIES",
-                    link: "/dm",
+                    link: "/mv",
                 },
                 {
                     txt: "DC SERIES",
-                    link: "/ds",
+                    link: "/mv",
                 },
                 {
                     txt: "DC ON HBO MAX",
-                    link: "/hbo",
+                    link: "/mv",
                 },
             ],
         },
@@ -76,6 +76,7 @@ const Layout = () => {
         },
     ];
 
+    /* 하단링크 데이터 셋업! */
     const bmenu = [
         {
             txt: "Privacy Policy",
@@ -141,7 +142,7 @@ const Layout = () => {
                             <FontAwesomeIcon icon={faSearch} />
                         </li>
                         <li>
-                            <Link to="/mem">Join Us</Link>
+                            <Link to="mem">Join Us</Link>
                         </li>
                         <li>
                             <Link to="/login">LOG IN</Link>
