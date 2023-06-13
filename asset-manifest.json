@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dc-app/static/css/main.d49b6a7a.css",
+    "main.js": "/dc-app/static/js/main.d2c85b7e.js",
+    "index.html": "/dc-app/index.html",
+    "main.d49b6a7a.css.map": "/dc-app/static/css/main.d49b6a7a.css.map",
+    "main.d2c85b7e.js.map": "/dc-app/static/js/main.d2c85b7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d49b6a7a.css",
+    "static/js/main.d2c85b7e.js"
+  ]
+}
